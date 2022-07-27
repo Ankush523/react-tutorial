@@ -1,16 +1,10 @@
 import React from 'react'
-import Author from './Author'
-import Image from './Image'
-import Title from './Title'
-
 const Book = () => {
   return (
-    <div className='bg-white p-2 m-3 rounded-md'>
-        <div>
-        <Image/>
-        <Title/>
-        <Author/>
-        </div>
+    <div className=' bg-white rounded-md'>
+        <img className='flex flex-row justify-center w-[200px] h-[200px]' src="https://images-na.ssl-images-amazon.com/images/I/41OiDvq9pDS._SX460_BO1,204,203,200_.jpg" alt=""/>
+        <h1>The Complete Novels of Sherlock Holmes</h1>
+        <h3>Arthur Conan Doyle</h3>
     </div>
   )
 }
