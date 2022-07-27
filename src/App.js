@@ -1,15 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
-import Image from './components/Image';
-import Title from './components/Title';
-import Author from './components/Author';
+import Book from './components/Book';
 
 function App() {
   return (
-    <div className="App">
-      <Image/>
-      <Title/>
-      <Author/>
+    <div className="App grid grid-cols-4">
+      <Book/>
+      <Book/>
+      <Book/>
+      <Book/>
+      <Book/>
+      <Book/>
     </div>
   );
 }
