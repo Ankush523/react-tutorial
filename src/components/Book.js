@@ -1,12 +1,15 @@
 import React from 'react'
 
-const firstBook = {
-  img : "https://images-na.ssl-images-amazon.com/images/I/41OiDvq9pDS._SX460_BO1,204,203,200_.jpg",
-  title : 'The Complete Novels of Sherlock Holmes',
-  author : 'Arthur Conan Doyle'
-};
 
-const Book = (firstBook) => {
+
+const Book = () => {
+
+  const firstBook = {
+    img : "https://images-na.ssl-images-amazon.com/images/I/41OiDvq9pDS._SX460_BO1,204,203,200_.jpg",
+    title : 'The Complete Novels of Sherlock Holmes',
+    author : 'Arthur Conan Doyle'
+  };
+  
   return (
     <div className='flex flex-col items-center  bg-white rounded-md'>
         <img className='w-[200px] h-[200px]' src={firstBook.img} alt=""/>
