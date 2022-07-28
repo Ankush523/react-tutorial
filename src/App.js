@@ -18,10 +18,18 @@ function App() {
     title : 'You Can',
     author : 'George Matthew Adams '
   },
+
+  {
+    id:3,
+    img : "https://images-eu.ssl-images-amazon.com/images/I/81tEgsxpNZS._AC_UL320_SR320,320_.jpg",
+    title : 'As a Man Thinketh',
+    author : 'James Allen'
+  },
+  
 ];
   return (
     <div className="App">
-      <section>
+      <section className='grid grid-cols-3'>
         {books.map((book) => {
           return(
           <BookData key={book.id} value={book} />
